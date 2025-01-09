@@ -11,7 +11,7 @@ import SwiftData
 struct FlashCardGridView: View {
   @Binding var missionaries: [Missionary]
   @State private var currentSet: [Missionary] = []
-  //    @State private var tappedCards: Set<Int> = [] // Tracks which cards have been tapped
+  @State private var showAlert: Bool = false
   @State private var nameVisibility: [Bool] = []
   
   private let numberOfColumns = 4 // 4 cards per row
@@ -45,6 +45,12 @@ struct FlashCardGridView: View {
       loadInitialSet()
     }
     .onAppear(perform: loadInitialSet)
+    .alert("Try Again!?", isPresented: $showAlert) {
+      Button("OK", action: loadNextSet)
+      Button("Cancel", role: .cancel, action: {})
+        //do nothing
+      } message: { Text("New set of 16")
+    }
   }
   
   private func loadInitialSet() {
@@ -59,7 +65,7 @@ struct FlashCardGridView: View {
     
     // Check if all names are visible
     if nameVisibility.allSatisfy({ $0 }) {
-      loadNextSet() // Load a new set if all names are visible
+      showAlert = true
     }
   }
   
