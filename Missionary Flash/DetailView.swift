@@ -14,6 +14,7 @@ struct DetailView: View {
   @Binding var missionaries: [Missionary]
   @State private var currentMissionary: Missionary?
   @State private var showDetails: Bool = false // Tracks visibility of details
+  @State private var showName: Bool = false
   @State private var currentIndex: Int = 0 // Tracks the current index for navigation
   @State private var searchText: String = "" // Text for the search field
   @State private var filteredMissionaries: [Missionary] = [] // Filtered list of missionaries
@@ -45,19 +46,44 @@ struct DetailView: View {
       // Missionary Details
       if let missionary = currentMissionary {
         VStack {
-          Text(missionary.startDate)
-            .font(.title)
-            .foregroundColor(.gray)
-            .padding()
-          
-          Image(missionary.photoName)
-            .resizable()
-            .scaledToFit()
-            .frame(width: UIDevice.current.userInterfaceIdiom == .pad ? 300 : 200,
-                   height: UIDevice.current.userInterfaceIdiom == .pad ? 300 : 200)
-            .clipShape(RoundedRectangle(cornerRadius: 20))
-            .shadow(radius: 5)
-            .padding()
+          ZStack {
+              GeometryReader { geometry in
+                  Image(missionary.photoName)
+                      .resizable()
+                      .scaledToFit()
+                      .frame(width: 300, height: 300)
+                      .clipShape(RoundedRectangle(cornerRadius: 20))
+                      .shadow(radius: 5)
+//                      .padding()
+                      .onTapGesture {
+                          showName.toggle()
+                          if showDetails {
+                              showName = false
+                          }
+                      }
+                      .onLongPressGesture {
+                          showName = false
+                          withAnimation {
+                              showDetails.toggle()
+                          }
+                      }
+                  
+                  if showName {
+                      Text(missionary.fnamelname)
+                          .font(.headline)
+                          .foregroundColor(.white)
+                          .padding(8)
+                          .background(Color.blue.opacity(0.4))
+                          .cornerRadius(8)
+                          .position(x: geometry.size.width / 2, y: geometry.size.height * 0.9)  // Adjusts text to lower third
+                          .transition(.opacity) // Smooth fade-in transition
+                  }
+              }
+              .frame(width: 300, height: 300)  // Ensure the frame remains consistent
+          }
+          .aspectRatio(1, contentMode: .fit)
+          .animation(.easeInOut, value: showName)
+          .padding(8)
           
           if showDetails {
             VStack(spacing: 20) {
@@ -85,16 +111,6 @@ struct DetailView: View {
             .padding()
             .transition(.opacity)
           }
-          
-          HStack(spacing: 20) {
-            Button(showDetails ? "Hide Details" : "Show Details") {
-              withAnimation {
-                showDetails.toggle()
-              }
-            }
-            .buttonStyle(PrimaryButtonStyle(color: .blue))
-          }
-          .padding()
         }
       } else {
         Text("No missionaries available")
@@ -118,6 +134,7 @@ struct DetailView: View {
     .gesture(
       DragGesture()
         .onEnded { value in
+          showName = false
           if value.translation.width < -100 { // Swipe left
             goToNextMissionary()
           } else if value.translation.width > 100 { // Swipe right
@@ -126,21 +143,6 @@ struct DetailView: View {
         }
     )
   }
-  
-  struct PrimaryButtonStyle: ButtonStyle {
-    var color: Color = .teal
-    func makeBody(configuration: Configuration) -> some View {
-      configuration.label
-        .padding()
-        .frame(maxWidth: 200)
-        .background(color)
-        .foregroundColor(.white)
-        .cornerRadius(10)
-        .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
-        .animation(.spring(), value: configuration.isPressed)
-    }
-  }
-  
   private func loadMissionary(at index: Int) {
     guard !filteredMissionaries.isEmpty else { return }
     currentMissionary = filteredMissionaries[index]

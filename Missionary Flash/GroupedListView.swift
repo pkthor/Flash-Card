@@ -77,7 +77,7 @@ struct GroupedListView: View {
                                 .background(Color(UIColor.secondarySystemBackground))
                                 .cornerRadius(10)
                                 .shadow(radius: 2)
-                                .onLongPressGesture {
+                                .onTapGesture {
                                     selectedMissionary = missionary
                                 }
                             }

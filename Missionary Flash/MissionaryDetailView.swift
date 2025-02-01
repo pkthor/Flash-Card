@@ -10,6 +10,7 @@ import SwiftData
 
 struct MissionaryDetailView: View {
     let missionary: Missionary
+    @Environment(\.dismiss) var dismiss
 
     var body: some View {
         VStack(spacing: 20) {
@@ -19,6 +20,9 @@ struct MissionaryDetailView: View {
                 .frame(width: 250, height: 250)
                 .clipShape(RoundedRectangle(cornerRadius: 20))
                 .padding()
+                .onTapGesture {
+                  dismiss()
+                }
 
             Text(missionary.fnamelname)
                 .font(.largeTitle)
