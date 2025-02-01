@@ -35,13 +35,13 @@ struct ContentView: View {
                     .clipShape(Circle())
                 
                 // Picker for selecting the view type
-                Picker("View Type", selection: $selectedViewType) {
-                    ForEach(ViewType.allCases) { viewType in
-                        Text(viewType.rawValue)
-                            .font(.title2) // Adjust font size
-                            .tag(viewType)
-                    }
-                }
+              Picker("View Type", selection: $selectedViewType) {
+                  ForEach(UIDevice.current.userInterfaceIdiom == .pad ? ViewType.allCases : [.detail, .alphabetical]) { viewType in
+                      Text(viewType.rawValue)
+                          .font(.title2)
+                          .tag(viewType)
+                  }
+              }
                 .pickerStyle(SegmentedPickerStyle())
                 .padding()
                 .frame(height: 60)

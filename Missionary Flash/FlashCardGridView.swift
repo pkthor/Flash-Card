@@ -54,7 +54,7 @@ struct FlashCardGridView: View {
         .alert("Try Again!?", isPresented: $showAlert) {
             Button("OK", action: loadNextSet)
             Button("Cancel", role: .cancel, action: {})
-        } message: { Text("New set of 16") }
+        } message: { Text("New set") }
         .sheet(item: $selectedMissionary) { missionary in
             MissionaryDetailView(missionary: missionary)
         }
