@@ -36,7 +36,7 @@ struct ContentView: View {
                 
                 // Picker for selecting the view type
               Picker("View Type", selection: $selectedViewType) {
-                  ForEach(UIDevice.current.userInterfaceIdiom == .pad ? ViewType.allCases : [.detail, .alphabetical]) { viewType in
+                ForEach(UIDevice.current.userInterfaceIdiom == .pad ? ViewType.allCases : [.detail, .groupedList, .alphabetical]) { viewType in
                       Text(viewType.rawValue)
                           .font(.title2)
                           .tag(viewType)
