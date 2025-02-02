@@ -14,6 +14,7 @@ struct ContentView: View {
     @State private var selectedCategory: String? = nil
     @State private var filteredMissionaries: [Missionary] = []
     @State private var selectedViewType: ViewType = .detail // Selected view type
+    @State private var selectedMissionary: Missionary? = nil
     
     let categories = ["All", "Elder", "Sister", "Senior"]
     enum ViewType: String, CaseIterable, Identifiable {
@@ -55,6 +56,7 @@ struct ContentView: View {
                         .onTapGesture {
                             selectedCategory = category
                             applyFilter(for: category)
+                          selectedMissionary = nil
                         }
                 }
                 
@@ -80,9 +82,9 @@ struct ContentView: View {
                 case .grid:
                     FlashCardGridView(missionaries: $filteredMissionaries)
                 case .groupedList:
-                    GroupedListView(missionaries: $filteredMissionaries)
+                  GroupedListView(missionaries: $filteredMissionaries, selectedMissionary: $selectedMissionary)
                 case .alphabetical: // New view integration
-                    AlphabeticalListView(missionaries: filteredMissionaries)
+                  AlphabeticalListView(missionaries: filteredMissionaries, selectedMissionary: $selectedMissionary)
                 }
             }
         }

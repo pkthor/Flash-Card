@@ -8,7 +8,7 @@ import SwiftUI
 
 struct GroupedListView: View {
     @Binding var missionaries: [Missionary]
-    @State private var selectedMissionary: Missionary?
+    @Binding var selectedMissionary: Missionary? // Bind the selected missionary
     @State private var groupBy: GroupingCriterion = .startDate // Default grouping
 
     enum GroupingCriterion: String, CaseIterable, Identifiable {
@@ -86,7 +86,7 @@ struct GroupedListView: View {
                     }
                 }
             }
-            .navigationTitle("Missionaries by \(groupBy.rawValue)")
+//            .navigationTitle("Missionaries by \(groupBy.rawValue)")
             .sheet(item: $selectedMissionary) { missionary in
                 MissionaryDetailView(missionary: missionary)
             }

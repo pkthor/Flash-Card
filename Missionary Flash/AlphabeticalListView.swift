@@ -9,8 +9,7 @@ import SwiftData
 
 struct AlphabeticalListView: View {
     let missionaries: [Missionary]
-    
-    @State private var selectedMissionary: Missionary? = nil
+    @Binding var selectedMissionary: Missionary? // Bind the selected missionary
     @State private var showDetailView: Bool = false
     
     private var groupedMissionaries: [(key: String, value: [Missionary])] {
@@ -55,7 +54,6 @@ struct AlphabeticalListView: View {
                                 print("Tapped \(missionary.shortname)")
                                 selectedMissionary = missionary
                                 showDetailView = true
-                                
                             }
                         }
                     }
@@ -71,10 +69,14 @@ struct AlphabeticalListView: View {
                 }
             }
             .task(id: selectedMissionary) {
-                            if selectedMissionary != nil {
-                                showDetailView = true
-                            }
-                        }
+                if selectedMissionary != nil {
+                    showDetailView = true
+                }
+            }
+            .onDisappear {
+                // Reset the selectedMissionary when the view disappears
+                selectedMissionary = nil
+            }
         }
     }
 }

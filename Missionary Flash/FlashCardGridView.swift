@@ -13,7 +13,7 @@ struct FlashCardGridView: View {
     @State private var currentSet: [Missionary] = []
     @State private var showAlert: Bool = false
     @State private var showDetails: Bool = false
-    @State private var selectedMissionary: Missionary?
+    @State private var selectedMissionary: Missionary? = nil
     @State private var nameVisibility: [Bool] = []
     
     private let numberOfColumns = 4 // 4 cards per row
@@ -48,9 +48,11 @@ struct FlashCardGridView: View {
             }
         }
         .task(id: missionaries) {
-            loadInitialSet()
+            loadInitialSet() // Reload the initial set when missionaries change
         }
-        .onAppear(perform: loadInitialSet)
+        .onAppear {
+            loadInitialSet() // Ensure the grid is loaded correctly when the view appears
+        }
         .alert("Try Again!?", isPresented: $showAlert) {
             Button("OK", action: loadNextSet)
             Button("Cancel", role: .cancel, action: {})
@@ -61,6 +63,9 @@ struct FlashCardGridView: View {
     }
     
     private func loadInitialSet() {
+        // Reset selectedMissionary when a new set is loaded
+        selectedMissionary = nil  // This ensures that any previously selected missionary is cleared
+        
         // Shuffle missionaries and take the first 16
         currentSet = Array(missionaries.shuffled().prefix(16))
         nameVisibility = Array(repeating: false, count: currentSet.count) // Reset visibility for all cards
@@ -80,6 +85,7 @@ struct FlashCardGridView: View {
         // Load the next set of 16 cards
         currentSet = Array(missionaries.shuffled().prefix(16))
         nameVisibility = Array(repeating: false, count: currentSet.count) // Reset visibility for new set
+        selectedMissionary = nil  // Reset selected missionary when a new set is loaded
     }
     
     private func calculateCardSize(from availableWidth: CGFloat) -> CGFloat {
