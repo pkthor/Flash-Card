@@ -22,6 +22,7 @@ struct ContentView: View {
         case grid = "Grid"
         case groupedList = "Group"
         case alphabetical = "Alpha"
+        case matchingGrid = "Match"
         
         var id: String { self.rawValue }
     }
@@ -85,6 +86,8 @@ struct ContentView: View {
                   GroupedListView(missionaries: $filteredMissionaries, selectedMissionary: $selectedMissionary)
                 case .alphabetical: // New view integration
                   AlphabeticalListView(missionaries: filteredMissionaries, selectedMissionary: $selectedMissionary)
+                case .matchingGrid:
+                  MatchingGridView(missionaries: $filteredMissionaries)
                 }
             }
         }
