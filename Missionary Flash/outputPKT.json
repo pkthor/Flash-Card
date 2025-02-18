@@ -1,17 +1,19 @@
 [
     {
         "name": "Sister Andrea Lopez Flores",
+        "surname": "Lopez",
         "photoName": "FLORESAL",
         "city": "Mexico",
-        "state": "M\u00e9xico",
+        "state": "México",
         "country": "Mexico",
         "startDate": "6 Nov 2024",
-        "endDate": "25 Mar 2026",
+        "endDate": "25 Mar 2025",
         "hobbies": "For a while I was practicing violin lessons, I also know a little about baking; my favorite hobby is listening music and painting.",
         "title": "Sister"
     },
     {
         "name": "Sister Bethany Amber McAllister",
+        "surname": "McAllister",
         "photoName": "MCALLISTERBA",
         "city": "Holladay",
         "state": "UT",
@@ -23,6 +25,7 @@
     },
     {
         "name": "Sister Janet Mendoza Mendoza",
+        "surname": "Mendoza",
         "photoName": "MENDOZAJM",
         "city": "Puebla",
         "state": "Puebla",
@@ -34,8 +37,9 @@
     },
     {
         "name": "Sister Luisa Fernanda Maldonado Soto",
+        "surname": "Maldonado",
         "photoName": "SOTOLF",
-        "city": "Torre\u00f3n",
+        "city": "Torreón",
         "state": "Coahuila",
         "country": "Mexico",
         "startDate": "29 Feb 2024",
@@ -45,6 +49,7 @@
     },
     {
         "name": "Elder Joseph Mario Rogers",
+        "surname": "Rogers",
         "photoName": "ROGERSJM",
         "city": "Sugar Hill",
         "state": "GA",
@@ -55,8 +60,9 @@
         "title": "Elder"
     },
     {
-        "name": "Sister Zany Ariadn\u00e9 Avila Jim\u00e9nez",
-        "photoName": "JIM\u00c9NEZZA",
+        "name": "Sister Zany Ariadné Avila Jiménez",
+        "surname": "Avila",
+        "photoName": "JIMÉNEZZA",
         "city": "Guanajuato",
         "state": "Guanajuato",
         "country": "Mexico",
@@ -67,6 +73,7 @@
     },
     {
         "name": "Elder Cameron Benjamin Harvill",
+        "surname": "Harvill",
         "photoName": "HARVILLCB",
         "city": "Winter Garden",
         "state": "FL",
@@ -78,17 +85,19 @@
     },
     {
         "name": "Elder Briggs Whiting Lunt",
+        "surname": "Lunt",
         "photoName": "LUNTBW",
         "city": "Queen Creek",
         "state": "AZ",
         "country": "USA",
         "startDate": "14 Sep 2025",
-        "endDate": "19 Jul 2027",
+        "endDate": "19 Jul 2025",
         "hobbies": "Played high school varsity football for 4 years and I was a big team leader on and off the field. I am a people person. I like people and I enjoy talking to people.",
         "title": "Elder"
     },
     {
         "name": "Elder Samuel Allen Johnson",
+        "surname": "Johnson",
         "photoName": "JOHNSONSA",
         "city": "Kaysville",
         "state": "UT",
@@ -100,6 +109,7 @@
     },
     {
         "name": "Elder Stetson Logan Slater",
+        "surname": "Slater",
         "photoName": "SLATERSL",
         "city": "Mesa",
         "state": "AZ",
@@ -111,6 +121,7 @@
     },
     {
         "name": "Elder Vaughn Michael Jess",
+        "surname": "Jess",
         "photoName": "JESSVM",
         "city": "Murray",
         "state": "UT",
@@ -122,17 +133,19 @@
     },
     {
         "name": "Elder Nathan Pierce Kingston",
+        "surname": "Kingston",
         "photoName": "KINGSTONNP",
         "city": "Quincy",
         "state": "CA",
         "country": "USA",
         "startDate": "30 Nov 2023",
-        "endDate": "19 Jul 2025",
+        "endDate": "19 Jul 25",
         "hobbies": "sports- 4 years football, 7 years basketball, 10 years baseball, one year golf, one year tennis, one year wrestling,",
         "title": "Elder"
     },
     {
         "name": "Elder Arnulfo Domingo Ortega Romero",
+        "surname": "Ortega",
         "photoName": "ROMEROAD",
         "city": "Mexico",
         "state": "Mexico",
@@ -144,6 +157,7 @@
     },
     {
         "name": "Sister Maria Carlota Vicencio de Ortega",
+        "surname": "Vicencio",
         "photoName": "ORTEGAMC",
         "city": "Mexico",
         "state": "Mexico",
@@ -155,6 +169,7 @@
     },
     {
         "name": "Sister Avery Elaine Hansen",
+        "surname": "Hansen",
         "photoName": "HANSENAE",
         "city": "Gilbert",
         "state": "AZ",
@@ -166,6 +181,7 @@
     },
     {
         "name": "Sister Taeya Garcia",
+        "surname": "Garcia",
         "photoName": "GARCIATG",
         "city": "SLC",
         "state": "UT",
@@ -177,6 +193,7 @@
     },
     {
         "name": "Elder Virgilio Zoram Butron Salazar",
+        "surname": "Butron",
         "photoName": "SALAZARVZ",
         "city": "Morelos",
         "state": "Cuautla",
@@ -188,6 +205,7 @@
     },
     {
         "name": "Elder Samuel Silva Alves de Oliveira",
+        "surname": "Silva",
         "photoName": "OLIVEIRASS",
         "city": "Indaiatuba",
         "state": "SP",
@@ -198,18 +216,20 @@
         "title": "Elder"
     },
     {
-        "name": "Elder Kyran Mu\u00f1oz Flores",
+        "name": "Elder Kyran Muñoz Flores",
+        "surname": "Muñoz",
         "photoName": "FLORESKM",
         "city": "Guadalajara",
         "state": "Jalisco",
         "country": "Mexico",
         "startDate": "14 Sep 2023",
         "endDate": "30 Aug 2025",
-        "hobbies": "Juego voleibol, h\u00e1bil con la tecnolog\u00eda , administraci\u00f3n del hogar, liderazgo, escribir, resolver acertijos, perseverante y responsable",
+        "hobbies": "Juego voleibol, hábil con la tecnología , administración del hogar, liderazgo, escribir, resolver acertijos, perseverante y responsable",
         "title": "Elder"
     },
     {
-        "name": "Elder Manuel Helaman G\u00f3mez Orozco",
+        "name": "Elder Manuel Helaman Gómez Orozco",
+        "surname": "Gómez",
         "photoName": "OROZCOMH",
         "city": "Guadalajara",
         "state": "Jalisco",
@@ -221,6 +241,7 @@
     },
     {
         "name": "Elder Trever James Martin",
+        "surname": "Martin",
         "photoName": "MARTINTJ",
         "city": "Emmett",
         "state": "ID",
@@ -232,6 +253,7 @@
     },
     {
         "name": "Elder Samuel Erik Valladares Flores",
+        "surname": "Valladares",
         "photoName": "FLORESSE",
         "city": "Puebla",
         "state": "San Andres Cholula",
@@ -243,6 +265,7 @@
     },
     {
         "name": "Elder Lucas Raymond Miller",
+        "surname": "Miller",
         "photoName": "MILLERLR",
         "city": "San Diego",
         "state": "CA",
@@ -254,6 +277,7 @@
     },
     {
         "name": "Elder Heber Alejandro Salazar Padilla",
+        "surname": "Salazar",
         "photoName": "PADILLAHA",
         "city": "Casas Grandes",
         "state": "Chihuahua",
@@ -265,6 +289,7 @@
     },
     {
         "name": "Elder David Arenas Juarez",
+        "surname": "Arenas",
         "photoName": "JUAREZDA",
         "city": "Mexico",
         "state": "Mexico State",
@@ -276,6 +301,7 @@
     },
     {
         "name": "Sister Maria Fernanda Itza Canche",
+        "surname": "Itza",
         "photoName": "CANCHEMF",
         "city": "Baca",
         "state": "Yucatan",
@@ -286,7 +312,8 @@
         "title": "Sister"
     },
     {
-        "name": "Elder Kentish Amalek\u00ed Marrufo Guerrero",
+        "name": "Elder Kentish Amalekí Marrufo Guerrero",
+        "surname": "Marrufo",
         "photoName": "GUERREROKA",
         "city": "San Francisco de Campeche",
         "state": "Campeche",
@@ -298,6 +325,7 @@
     },
     {
         "name": "Elder Steven Patrick Pruneda",
+        "surname": "Pruneda",
         "photoName": "PRUNEDASP",
         "city": "Las Vegas",
         "state": "NV",
@@ -308,7 +336,8 @@
         "title": "Elder"
     },
     {
-        "name": "Sister Sofia Jazmin Mu\u00f1oz Morales",
+        "name": "Sister Sofia Jazmin Muñoz Morales",
+        "surname": "Muñoz",
         "photoName": "MORALESSJ",
         "city": "Pachuca de Soto",
         "state": "Hidalgo",
@@ -319,7 +348,8 @@
         "title": "Sister"
     },
     {
-        "name": "Sister Dayanna Michelle Guti\u00e9rrez Martin",
+        "name": "Sister Dayanna Michelle Gutiérrez Martin",
+        "surname": "Guitérrez",
         "photoName": "MARTINDM",
         "city": "Zacapoaxtla",
         "state": "Puebla",
@@ -331,6 +361,7 @@
     },
     {
         "name": "Elder Juan Carlos Rodriguez Morales",
+        "surname": "Rodriguez",
         "photoName": "MORALESJC",
         "city": "Guatemala City",
         "state": "Guatemala",
@@ -342,17 +373,19 @@
     },
     {
         "name": "Elder Ariel Alejandro Segura Contreras",
+        "surname": "Segura",
         "photoName": "CONTRERASAA",
         "city": "Durango",
         "state": "Durango",
         "country": "Mexico",
         "startDate": "26 Oct 2023",
         "endDate": "11 Oct 2025",
-        "hobbies": "capit\u00e1n de equipo de futbol durante 4 a\u00f1os y campe\u00f3n de torneos estatales , asistido a concursos de matem\u00e1ticas",
+        "hobbies": "capitán de equipo de futbol durante 4 años y campeón de torneos estatales , asistido a concursos de matemáticas",
         "title": "Elder"
     },
     {
         "name": "Elder Benjamin Gamaliel Palomino Galindo",
+        "surname": "Palomino",
         "photoName": "GALINDOBG",
         "city": "Huaycan",
         "state": "Lima",
@@ -363,7 +396,8 @@
         "title": "Elder"
     },
     {
-        "name": "Elder Pablo Israel S\u00e1nchez Moreno",
+        "name": "Elder Pablo Israel Sánchez Moreno",
+        "surname": "Sánchez",
         "photoName": "MORENOPI",
         "city": "Pachuca",
         "state": "Hidalgo",
@@ -375,6 +409,7 @@
     },
     {
         "name": "Elder Moises Pineda Arista",
+        "surname": "Pineda",
         "photoName": "ARISTAMP",
         "city": "Estado de Mexico",
         "state": "De Mexico",
@@ -386,17 +421,19 @@
     },
     {
         "name": "Elder Ian Luis Carrasco Norez",
+        "surname": "Carrasco",
         "photoName": "NOREZIL",
         "city": "Delicias",
         "state": "Chihuahua",
         "country": "Mexico",
         "startDate": "29 Feb 2024",
         "endDate": "29 Oct 2025",
-        "hobbies": "I\u2019m good at playing video games, I studied first aid",
+        "hobbies": "I’m good at playing video games, I studied first aid",
         "title": "Elder"
     },
     {
         "name": "Elder Eliezer Jair Isaac Tirrell Laynes",
+        "surname": "Tirrell",
         "photoName": "LAYNESEJ",
         "city": "Merida",
         "state": "Merida",
@@ -408,6 +445,7 @@
     },
     {
         "name": "Elder Jared Espinoza",
+        "surname": "Espinoza",
         "photoName": "ESPINOZAJE",
         "city": "Carlsbad",
         "state": "CA",
@@ -419,6 +457,7 @@
     },
     {
         "name": "Sister Aliette Sarai Miranda Ponce",
+        "surname": "Miranda",
         "photoName": "PONCEAS",
         "city": "Mexico",
         "state": "Mexico State",
@@ -430,6 +469,7 @@
     },
     {
         "name": "Elder Jesus Cabanas Izucar",
+        "surname": "Cabanas",
         "photoName": "IZUCARJC",
         "city": "Tehuacan",
         "state": "Puebla",
@@ -441,8 +481,9 @@
     },
     {
         "name": "Sister Margarita Isabel Ucan Dominguez",
+        "surname": "Ucan",
         "photoName": "DOMINGUEZMI",
-        "city": "M\u00e9rida",
+        "city": "Mérida",
         "state": "Yucatan",
         "country": "Mexico",
         "startDate": "29 May 2024",
@@ -452,6 +493,7 @@
     },
     {
         "name": "Elder Abraham Rueda Jimenez",
+        "surname": "Rueda",
         "photoName": "JIMENEZAR",
         "city": "Ticul",
         "state": "Yucatan",
@@ -463,6 +505,7 @@
     },
     {
         "name": "Sister Susy Georgina Alejos",
+        "surname": "Georgina",
         "photoName": "ALEJOSSG",
         "city": "Ticul",
         "state": "Yucatan",
@@ -474,6 +517,7 @@
     },
     {
         "name": "Elder Rene Adrian Zamarripa",
+        "surname": "Zamarripa",
         "photoName": "ZAMARRIPARA",
         "city": "Eagle Pass",
         "state": "TX",
@@ -485,6 +529,7 @@
     },
     {
         "name": "Elder Henry Antony Arucanqui Cruzado",
+        "surname": "Arucanqui",
         "photoName": "CRUZADOHA",
         "city": "Ica",
         "state": "Ica",
@@ -496,6 +541,7 @@
     },
     {
         "name": "Sister Hazel Faith Strong",
+        "surname": "Strong",
         "photoName": "STRONGHF",
         "city": "Lehi",
         "state": "UT",
@@ -507,6 +553,7 @@
     },
     {
         "name": "Sister Brianna Lahore Hilton",
+        "surname": "Hilton",
         "photoName": "HILTONBL",
         "city": "Farmington",
         "state": "UT",
@@ -518,6 +565,7 @@
     },
     {
         "name": "Sister Chelsea Gabrielle Hernandez",
+        "surname": "Hernandez",
         "photoName": "HERNANDEZCG",
         "city": "Clute",
         "state": "TX",
@@ -528,7 +576,8 @@
         "title": "Sister"
     },
     {
-        "name": "Elder Jose Hernan Ch\u00e1vez Elwin",
+        "name": "Elder Jose Hernan Chávez Elwin",
+        "surname": "Chávez",
         "photoName": "ELWINJH",
         "city": "Villahermosa",
         "state": "Tabasco",
@@ -539,10 +588,11 @@
         "title": "Elder"
     },
     {
-        "name": "Elder Rub\u00e9n Abraham Hern\u00e1ndez Luna",
+        "name": "Elder Rubén Abraham Hernández Luna",
+        "surname": "Hernández",
         "photoName": "LUNARA",
         "city": "Apodaca",
-        "state": "Nuevo Le\u00f3n",
+        "state": "Nuevo León",
         "country": "Mexico",
         "startDate": "29 Feb 2024",
         "endDate": "12 Feb 2026",
@@ -551,6 +601,7 @@
     },
     {
         "name": "Elder Alex Kimball Adams",
+        "surname": "Adams",
         "photoName": "ADAMSAK",
         "city": "Niles",
         "state": "MI",
@@ -562,6 +613,7 @@
     },
     {
         "name": "Elder Andres Hernandez Maza",
+        "surname": "Hernandez",
         "photoName": "MAZAAH",
         "city": "Matamoros",
         "state": "Tamaulipas",
@@ -573,6 +625,7 @@
     },
     {
         "name": "Elder Jesse Maurice Millett",
+        "surname": "Millett",
         "photoName": "MILLETTJM",
         "city": "Mesa",
         "state": "AZ",
@@ -584,6 +637,7 @@
     },
     {
         "name": "Elder Victor Alonso Moscoso Vilchez",
+        "surname": "Moscoso",
         "photoName": "VILCHEZVA",
         "city": "Lima",
         "state": "Lima",
@@ -595,6 +649,7 @@
     },
     {
         "name": "Elder Taft Michael Barr",
+        "surname": "Barr",
         "photoName": "BARRTM",
         "city": "Pittstown",
         "state": "NJ",
@@ -606,6 +661,7 @@
     },
     {
         "name": "Elder Luis Armando Cortes Lopez",
+        "surname": "Cortes",
         "photoName": "LOPEZLA",
         "city": "Tehuacan",
         "state": "Puebla",
@@ -617,9 +673,10 @@
     },
     {
         "name": "Elder Carlos Emmanuel De La Rosa Tovar",
+        "surname": "De La Rosa",
         "photoName": "TOVARCE",
         "city": "San Nicolas de los Garza",
-        "state": "Nuevo Le\u00f3n",
+        "state": "Nuevo León",
         "country": "Mexico",
         "startDate": "29 Feb 2024",
         "endDate": "12 Feb 2026",
@@ -628,6 +685,7 @@
     },
     {
         "name": "Sister Madeline Jackson",
+        "surname": "Jackson",
         "photoName": "JACKSONMJ",
         "city": "Holladay",
         "state": "UT",
@@ -639,6 +697,7 @@
     },
     {
         "name": "Sister Ursula Camila Mendoza",
+        "surname": "Mendoza",
         "photoName": "MENDOZAUC",
         "city": "Bahia Blanca",
         "state": "Buenos Aires",
@@ -650,6 +709,7 @@
     },
     {
         "name": "Elder DelRay S Davenport",
+        "surname": "Davenport",
         "photoName": "DAVENPORTDS",
         "city": "Saint Anthony",
         "state": "ID",
@@ -661,6 +721,7 @@
     },
     {
         "name": "Sister Tamera B Davenport",
+        "surname": "Davenport",
         "photoName": "DAVENPORTTB",
         "city": "Saint Anthony",
         "state": "ID",
@@ -671,8 +732,9 @@
         "title": "Senior"
     },
     {
-        "name": "Sister Savannah Brooke Leavitt",
-        "photoName": "LEAVITTSB",
+        "name": "Sister Savannah Brooke Leavite",
+        "surname": "Leavitt",
+        "photoName": "LEAVITESB",
         "city": "Mansfield",
         "state": "TX",
         "country": "USA",
@@ -683,6 +745,7 @@
     },
     {
         "name": "Sister Marinne Elyse Sheldon",
+        "surname": "Sheldon",
         "photoName": "SHELDONME",
         "city": "Temecula",
         "state": "CA",
@@ -694,17 +757,19 @@
     },
     {
         "name": "Sister Makennah Lyn Christenson",
+        "surname": "Christenson",
         "photoName": "CHRISTENSONML",
         "city": "Fort Worth",
         "state": "TX",
         "country": "USA",
         "startDate": "6 Nov 2024",
         "endDate": "25 Mar 2026",
-        "hobbies": "Spanish Honor Society, Spanish Club Leadership, Personal Progress Award, Honor Bee Award, Seminary graduate, 2023 Mayor\u2019s Achievement Award, Texas Federation of Music Club, Piano Competition Qualifier, Multi-Year Chinese Linguistic Award, Multi-Year Spanish Linguistic Award, attended trilingual school (Spanish & Chinese) for part of elementary and middle school, National Honor Society, High School Soccer, traveling and other cultures, certified patient care technician, certified nursing assistant, lifeguard certified, CPR certified, AP scholar",
+        "hobbies": "Spanish Honor Society, Spanish Club Leadership, Personal Progress Award, Honor Bee Award, Seminary graduate, 2023 Mayor’s Achievement Award, Texas Federation of Music Club, Piano Competition Qualifier, Multi-Year Chinese Linguistic Award, Multi-Year Spanish Linguistic Award, attended trilingual school (Spanish & Chinese) for part of elementary and middle school, National Honor Society, High School Soccer, traveling and other cultures, certified patient care technician, certified nursing assistant, lifeguard certified, CPR certified, AP scholar",
         "title": "Sister"
     },
     {
         "name": "Sister Sidney Yuliana Aguilar Pulido",
+        "surname": "Aguilar",
         "photoName": "PULIDOSY",
         "city": "Estado de Mexico",
         "state": "Estado de Mexico",
@@ -716,9 +781,10 @@
     },
     {
         "name": "Sister Itzel Zavala Bautista",
+        "surname": "Zavala",
         "photoName": "BAUTISTAIZ",
         "city": "Mexico City",
-        "state": "M\u00e9xico",
+        "state": "México",
         "country": "Mexico",
         "startDate": "6 Nov 2024",
         "endDate": "25 Mar 2026",
@@ -727,6 +793,7 @@
     },
     {
         "name": "Sister Katherine Yamileth Arenas de la Rosa",
+        "surname": "Arenas",
         "photoName": "ROSAKY",
         "city": "Puebla",
         "state": "Libres Puebla",
@@ -737,10 +804,11 @@
         "title": "Sister"
     },
     {
-        "name": "Sister Zitlaly Waldiskay Lara Pe\u00f1aflor",
-        "photoName": "PE\u00d1AFLORZW",
+        "name": "Sister Zitlaly Waldiskay Lara Peñaflor",
+        "surname": "Lara",
+        "photoName": "PEÑAFLORZW",
         "city": "Juarez",
-        "state": "Nuevo Le\u00f3n",
+        "state": "Nuevo León",
         "country": "Mexico",
         "startDate": "6 Nov 2024",
         "endDate": "25 Mar 2026",
@@ -749,6 +817,7 @@
     },
     {
         "name": "Sister Karla Miranda Lira Trejo",
+        "surname": "Lira",
         "photoName": "TREJOKM",
         "city": "Ciudad Valles",
         "state": "San Luis Potosi",
@@ -760,6 +829,7 @@
     },
     {
         "name": "Sister Samantha Amelie Diaz Ruiz",
+        "surname": "Diaz",
         "photoName": "RUIZSA",
         "city": "Puebla",
         "state": "Puebla",
@@ -771,6 +841,7 @@
     },
     {
         "name": "Sister Lenny Abril Parra Gonzalez",
+        "surname": "Parra",
         "photoName": "GONZALEZLA",
         "city": "Puebla",
         "state": "Puebla",
@@ -781,7 +852,8 @@
         "title": "Sister"
     },
     {
-        "name": "Sister F\u00e1tima Rub\u00ed Olmos Bautista",
+        "name": "Sister Fátima Rubí Olmos Bautista",
+        "surname": "Olmos",
         "photoName": "BAUTISTAFR",
         "city": "H. Matamoros",
         "state": "Tamaulipas",
@@ -793,6 +865,7 @@
     },
     {
         "name": "Elder Brandon Joseph Conklin",
+        "surname": "Conklin",
         "photoName": "CONKLINBJ",
         "city": "Salem",
         "state": "VA",
@@ -804,6 +877,7 @@
     },
     {
         "name": "Elder Harold Enrique Maldonado Barron",
+        "surname": "Maldonado",
         "photoName": "BARRONHE",
         "city": "Ciudad Victoria",
         "state": "Tamaulipas",
@@ -814,9 +888,10 @@
         "title": "Elder"
     },
     {
-        "name": "Elder Aar\u00f3n Al\u00ed Pazar\u00e1n",
-        "photoName": "PAZAR\u00c1NAA",
-        "city": "M\u00e9rida",
+        "name": "Elder Aarón Alí Pazarán",
+        "surname": "Alí",
+        "photoName": "PAZARÁNAA",
+        "city": "Mérida",
         "state": "Yucatan",
         "country": "Mexico",
         "startDate": "4 Apr 2024",
@@ -826,6 +901,7 @@
     },
     {
         "name": "Sister Julie Jane Cannon",
+        "surname": "Cannon",
         "photoName": "CANNONJJ",
         "city": "West Jorday",
         "state": "UT",
@@ -837,6 +913,7 @@
     },
     {
         "name": "Sister Rachel Renee Norris",
+        "surname": "Norris",
         "photoName": "NORRISRR",
         "city": "San Tan Valley",
         "state": "AZ",
@@ -848,6 +925,7 @@
     },
     {
         "name": "Elder Paul Stuart Hatch",
+        "surname": "Hatch",
         "photoName": "HATCHPS",
         "city": "San Tan Valley",
         "state": "AZ",
@@ -859,6 +937,7 @@
     },
     {
         "name": "Sister Janice Adell Hatch",
+        "surname": "Hatch",
         "photoName": "HATCHJA",
         "city": "San Tan Valley",
         "state": "AZ",
@@ -870,6 +949,7 @@
     },
     {
         "name": "Elder Garrett Reed Noble",
+        "surname": "Noble",
         "photoName": "NOBLEGR",
         "city": "Las Vegas",
         "state": "NV",
@@ -881,6 +961,7 @@
     },
     {
         "name": "Elder Jeremiah Eduardo Gasca",
+        "surname": "Gasca",
         "photoName": "GASCAJE",
         "city": "San Pedro",
         "state": "CA",
@@ -892,6 +973,7 @@
     },
     {
         "name": "Elder Zander Thomas Bray",
+        "surname": "Bray",
         "photoName": "BRAYZT",
         "city": "Sharpsburg",
         "state": "GA",
@@ -903,6 +985,7 @@
     },
     {
         "name": "Elder Noah Phelps",
+        "surname": "Phelps",
         "photoName": "PHELPSNP",
         "city": "Midvale",
         "state": "UT",
@@ -914,6 +997,7 @@
     },
     {
         "name": "Sister Madilynn Joy Adams",
+        "surname": "Adams",
         "photoName": "ADAMSMJ",
         "city": "Bountiful",
         "state": "UT",
@@ -925,6 +1009,7 @@
     },
     {
         "name": "Sister Valeria Popoca Paz",
+        "surname": "Popoca",
         "photoName": "PAZVP",
         "city": "Atlixco",
         "state": "Puebla",
@@ -935,8 +1020,9 @@
         "title": "Sister"
     },
     {
-        "name": "Sister Ariadna Valladares Garc\u00eda",
-        "photoName": "GARC\u00cdAAV",
+        "name": "Sister Ariadna Valladares García",
+        "surname": "Valladares",
+        "photoName": "GARCÍAAV",
         "city": "Iguala",
         "state": "Guerrero",
         "country": "Mexico",
@@ -947,8 +1033,9 @@
     },
     {
         "name": "Sister Ingrid Daniela Castellanos Duran",
+        "surname": "Castellanos",
         "photoName": "DURANID",
-        "city": "C\u00facuta",
+        "city": "Cúcuta",
         "state": "Norte de Santander",
         "country": "Colombia",
         "startDate": "11 Dec 2024",
@@ -957,7 +1044,8 @@
         "title": "Sister"
     },
     {
-        "name": "Sister Martha Carolina Barr\u00f3n Hinojosa",
+        "name": "Sister Martha Carolina Barrón Hinojosa",
+        "surname": "Barrón",
         "photoName": "HINOJOSAMC",
         "city": "Tecamac",
         "state": "Mexico State",
@@ -968,21 +1056,23 @@
         "title": "Sister"
     },
     {
-        "name": "Sister Carmen Elizabeth Carre\u00f3n Vargas",
+        "name": "Sister Carmen Elizabeth Carreón Vargas",
+        "surname": "Carreón",
         "photoName": "VARGASCE",
         "city": "Tlalnepantla",
         "state": "Estado de Mexico",
         "country": "Mexico",
         "startDate": "11 Dec 2024",
         "endDate": "6 May 2026",
-        "hobbies": "Kung-fu for 5 years, pasatiempos favorito en talleres de Actuaci\u00f3n y baile. Torneos de kung-fu",
+        "hobbies": "Kung-fu for 5 years, pasatiempos favorito en talleres de Actuación y baile. Torneos de kung-fu",
         "title": "Sister"
     },
     {
-        "name": "Sister Joyce Sacb\u00e9 Ruiz Ramirez",
+        "name": "Sister Joyce Sacbé Ruiz Ramirez",
+        "surname": "Ruiz",
         "photoName": "RAMIREZJS",
-        "city": "M\u00e9xico City",
-        "state": "M\u00e9xico City",
+        "city": "México City",
+        "state": "México City",
         "country": "Mexico",
         "startDate": "11 Dec 2024",
         "endDate": "6 May 2026",
@@ -991,6 +1081,7 @@
     },
     {
         "name": "Sister Paola Monserrat Perez Canseco",
+        "surname": "Perez",
         "photoName": "CANSECOPM",
         "city": "Reynosa",
         "state": "Reynosa",
@@ -1002,6 +1093,7 @@
     },
     {
         "name": "Elder Cooper Jonathan-Evert Mahe",
+        "surname": "Mahe",
         "photoName": "MAHECJ",
         "city": "Springfield Lakes",
         "state": "Queensland",
@@ -1013,6 +1105,7 @@
     },
     {
         "name": "Elder Jacob Esau Carmona",
+        "surname": "Carmona",
         "photoName": "CARMONAJE",
         "city": "Ecatepec de Morelos",
         "state": "Mexico State",
@@ -1024,6 +1117,7 @@
     },
     {
         "name": "Elder Francisco Ivan Sainz Armenta",
+        "surname": "Sainz",
         "photoName": "ARMENTAFI",
         "city": "Cananea",
         "state": "Sonora",
@@ -1035,6 +1129,7 @@
     },
     {
         "name": "Elder Justin Brent Gillman",
+        "surname": "Billman",
         "photoName": "GILLMANJB",
         "city": "Myton",
         "state": "UT",
@@ -1046,6 +1141,7 @@
     },
     {
         "name": "Elder Amman Joseph Speth",
+        "surname": "Speth",
         "photoName": "SPETHAJ",
         "city": "Wellsville",
         "state": "UT",
@@ -1057,6 +1153,7 @@
     },
     {
         "name": "Elder Nathan Steven Johnston",
+        "surname": "Johnston",
         "photoName": "JOHNSTONNS",
         "city": "Highlands Ranch",
         "state": "CO",
@@ -1068,9 +1165,10 @@
     },
     {
         "name": "Elder Oliver Enrique Alvarez Carmona",
+        "surname": "Alvarez",
         "photoName": "CARMONAOE",
-        "city": "M\u00e9xico City",
-        "state": "M\u00e9xico City",
+        "city": "México City",
+        "state": "México City",
         "country": "Mexico",
         "startDate": "3 Jul 2024",
         "endDate": "17 Jun 2026",
@@ -1078,8 +1176,9 @@
         "title": "Elder"
     },
     {
-        "name": "Elder Israel Cadena Lim\u00f3n",
-        "photoName": "LIM\u00d3NIC",
+        "name": "Elder Israel Cadena Limón",
+        "surname": "Cadena",
+        "photoName": "LIMÓNIC",
         "city": "Huejotzingo",
         "state": "Puebla",
         "country": "Mexico",
@@ -1089,9 +1188,10 @@
         "title": "Elder"
     },
     {
-        "name": "Sister Silvia Guadalupe Matias Cana\u00e1n",
-        "photoName": "CANA\u00c1NSG",
-        "city": "Tehuac\u00e1n",
+        "name": "Sister Silvia Guadalupe Matias Canaán",
+        "surname": "Matias",
+        "photoName": "CANAÁNSG",
+        "city": "Tehuacán",
         "state": "Puebla",
         "country": "Mexico",
         "startDate": "29 Jan 2025",
@@ -1101,6 +1201,7 @@
     },
     {
         "name": "Sister Melissa Gonzalez Varela",
+        "surname": "Gonzalez",
         "photoName": "VARELAMG",
         "city": "Chalco",
         "state": "Estado de Mexico",
@@ -1112,6 +1213,7 @@
     },
     {
         "name": "Sister Natalie Ann Grover",
+        "surname": "Grover",
         "photoName": "GROVERNA",
         "city": "Hattiesburg",
         "state": "MS",
@@ -1123,6 +1225,7 @@
     },
     {
         "name": "Sister Elise Kelly Barson",
+        "surname": "Barson",
         "photoName": "BARSONEK",
         "city": "Springville",
         "state": "UT",
@@ -1134,6 +1237,7 @@
     },
     {
         "name": "Sister Laura Estefania Quezada Bautista",
+        "surname": "Quezada",
         "photoName": "BAUTISTALE",
         "city": "Pachuca",
         "state": "Hidalgo",
@@ -1145,6 +1249,7 @@
     },
     {
         "name": "Sister Nellie Elizabeth Ramirez Hernandez",
+        "surname": "Ramirez",
         "photoName": "HERNANDEZNE",
         "city": "Mineral de La Reforma",
         "state": "Hidalgo",
@@ -1155,7 +1260,8 @@
         "title": "Sister"
     },
     {
-        "name": "Sister Briana Maga\u00f1a Cabal",
+        "name": "Sister Briana Magaña Cabal",
+        "surname": "Magaña",
         "photoName": "CABALBM",
         "city": "Rio Bravo",
         "state": "Tamaulipas",
@@ -1167,6 +1273,7 @@
     },
     {
         "name": "Sister Gloria Lisseth Cruz Roman",
+        "surname": "Cruz",
         "photoName": "ROMANGL",
         "city": "Saltillo",
         "state": "Coahuila",
@@ -1178,8 +1285,9 @@
     },
     {
         "name": "Sister Dulce Aquino Hernandez",
+        "surname": "Aquino",
         "photoName": "HERNANDEZDA",
-        "city": "Juchit\u00e1n",
+        "city": "Juchitán",
         "state": "Oaxaca",
         "country": "Mexico",
         "startDate": "29 Jan 2025",
@@ -1189,6 +1297,7 @@
     },
     {
         "name": "Sister Alondra Tsunami Cardona Soto",
+        "surname": "Cardona",
         "photoName": "SOTOAT",
         "city": "Tlaxcala",
         "state": "Tlaxcala",
@@ -1200,17 +1309,19 @@
     },
     {
         "name": "Sister Atzimba Sarahi Hernandez Ramirez",
+        "surname": "Hernandez",
         "photoName": "RAMIREZAS",
         "city": "Mexico City",
-        "state": "M\u00e9xico City",
+        "state": "México City",
         "country": "Mexico",
         "startDate": "29 Jan 2025",
-        "endDate": "17 Jun 2026",
+        "endDate": "17 Jun 26",
         "hobbies": "In scouting I obtained an Ido, a badge that is obtained by completing a number of projects, including expression and communication, security and rescue, and ecology. I have left a project recognized by the UN pending, which I will delegate to a colleague to finish, on recycling. I finished my degree in design, animation and arts and I have participated in photography and video projects within the church (FSY) as an advisor.",
         "title": "Sister"
     },
     {
         "name": "Elder Isaac Robert Potter",
+        "surname": "Potter",
         "photoName": "POTTERIR",
         "city": "Ammon",
         "state": "ID",
@@ -1222,6 +1333,7 @@
     },
     {
         "name": "Elder Ryan Douglas White",
+        "surname": "White",
         "photoName": "WHITERD",
         "city": "Highland",
         "state": "UT",
@@ -1233,6 +1345,7 @@
     },
     {
         "name": "Elder Nathan Walter Lutz",
+        "surname": "Lutz",
         "photoName": "LUTZNW",
         "city": "Tipp City",
         "state": "OH",
@@ -1244,6 +1357,7 @@
     },
     {
         "name": "Elder George Winthrop Giles Grimmer",
+        "surname": "Grimmer",
         "photoName": "GRIMMERGW",
         "city": "Alpine",
         "state": "UT",
@@ -1255,6 +1369,7 @@
     },
     {
         "name": "Elder Grant Kenneth Hulbert",
+        "surname": "Hulbert",
         "photoName": "HULBERTGK",
         "city": "Hyrum",
         "state": "UT",
@@ -1266,6 +1381,7 @@
     },
     {
         "name": "Elder Ernest James McCauley",
+        "surname": "McCauley",
         "photoName": "MCCAULEYEJ",
         "city": "Palmdale",
         "state": "CA",
@@ -1277,6 +1393,7 @@
     },
     {
         "name": "Elder Michael Taylor Lewis",
+        "surname": "Lewis",
         "photoName": "LEWISMT",
         "city": "Highland",
         "state": "UT",
@@ -1288,6 +1405,7 @@
     },
     {
         "name": "Elder Jared Allen Muchmore",
+        "surname": "Muchmore",
         "photoName": "MUCHMOREJA",
         "city": "Vancouver",
         "state": "WA",
@@ -1299,6 +1417,7 @@
     },
     {
         "name": "Elder Brandon Kyle Russell",
+        "surname": "Russell",
         "photoName": "RUSSELLBK",
         "city": "Peoria",
         "state": "AZ",
@@ -1310,6 +1429,7 @@
     },
     {
         "name": "Elder Ryan Lane Jensen",
+        "surname": "Jensen",
         "photoName": "JENSENRL",
         "city": "Saratoga Springs",
         "state": "UT",
@@ -1321,9 +1441,10 @@
     },
     {
         "name": "Elder Alfredo Jimenez Robledo",
+        "surname": "Jimenez",
         "photoName": "ROBLEDOAJ",
         "city": "Milpa Alta",
-        "state": "M\u00e9xico City",
+        "state": "México City",
         "country": "Mexico",
         "startDate": "6 Jan 2025",
         "endDate": "30 Jun 2026",
@@ -1331,10 +1452,11 @@
         "title": "Senior"
     },
     {
-        "name": "Sister Amalia Ji\u00e9nez N\u00e1poles",
-        "photoName": "N\u00c1POLESAJ",
+        "name": "Sister Amalia Jiénez Nápoles",
+        "surname": "Jimenez",
+        "photoName": "NÁPOLESAJ",
         "city": "Milpa Alta",
-        "state": "M\u00e9xico City",
+        "state": "México City",
         "country": "Mexico",
         "startDate": "6 Jan 2025",
         "endDate": "30 Jun 2026",
@@ -1343,6 +1465,7 @@
     },
     {
         "name": "Elder David Contreras Martinez",
+        "surname": "Contreras",
         "photoName": "MARTINEZDC",
         "city": "Arteaga",
         "state": "Coahuila",
@@ -1354,6 +1477,7 @@
     },
     {
         "name": "Sister Rosa Emma Contreras de Cardenas",
+        "surname": "Contreras",
         "photoName": "CARDENASRE",
         "city": "Arteaga",
         "state": "Coahuila",
@@ -1365,6 +1489,7 @@
     },
     {
         "name": "Sister Jada Leigh Stacey",
+        "surname": "Stacey",
         "photoName": "STACEYJL",
         "city": "New Market",
         "state": "AL",
@@ -1376,6 +1501,7 @@
     },
     {
         "name": "Elder Sawyer Jeffrey Kondel",
+        "surname": "Kondel",
         "photoName": "KONDELSJ",
         "city": "Burley",
         "state": "ID",
@@ -1387,6 +1513,7 @@
     },
     {
         "name": "Elder Nathan Tilghman Hill",
+        "surname": "Hill",
         "photoName": "HILLNT",
         "city": "Salem",
         "state": "UT",
@@ -1398,6 +1525,7 @@
     },
     {
         "name": "Elder Spencer Bradley Wurtz",
+        "surname": "Wurtz",
         "photoName": "WURTZSB",
         "city": "Poway",
         "state": "CA",
@@ -1409,6 +1537,7 @@
     },
     {
         "name": "Elder Luke Trevor Jeppesen",
+        "surname": "Jeppesen",
         "photoName": "JEPPESENLT",
         "city": "Mantua",
         "state": "UT",
@@ -1420,6 +1549,7 @@
     },
     {
         "name": "Elder Parker Stuart Robinson",
+        "surname": "Robinson",
         "photoName": "ROBINSONPS",
         "city": "Lehi",
         "state": "UT",
@@ -1431,6 +1561,7 @@
     },
     {
         "name": "Elder John Eldon Tate",
+        "surname": "Tate",
         "photoName": "TATEJE",
         "city": "Las Vegas",
         "state": "NV",
@@ -1442,6 +1573,7 @@
     },
     {
         "name": "Elder Jonathan Paul Wright",
+        "surname": "Wright",
         "photoName": "WRIGHTJP",
         "city": "Cedar City",
         "state": "UT",
@@ -1453,6 +1585,7 @@
     },
     {
         "name": "Elder Matthew Enoch Holmquist",
+        "surname": "Holmquist",
         "photoName": "HOLMQUISTME",
         "city": "Montpelier",
         "state": "ID",
@@ -1464,6 +1597,7 @@
     },
     {
         "name": "Elder Parker Andrew Clevenger",
+        "surname": "Clevenger",
         "photoName": "CLEVENGERPA",
         "city": "Liberty Lake",
         "state": "WA",
@@ -1475,6 +1609,7 @@
     },
     {
         "name": "Elder Caleb Tavares Mendoza",
+        "surname": "Tavares",
         "photoName": "MENDOZACT",
         "city": "Valle de Chalco",
         "state": "Mexico State",
@@ -1486,6 +1621,7 @@
     },
     {
         "name": "Sister Josefina Ayelen Duarte",
+        "surname": "Ayelen",
         "photoName": "DUARTEJA",
         "city": "Ciudadela",
         "state": "Buenos Aires",
@@ -1497,18 +1633,20 @@
     },
     {
         "name": "Sister Renata Ignacia Llamazares",
+        "surname": "Ignacia",
         "photoName": "LLAMAZARESRI",
         "city": "Quilicura",
         "state": "Santiago",
         "country": "Chile",
         "startDate": "12 Mar 2025",
-        "endDate": "29 Jul 2026",
+        "endDate": "29 Jul 26",
         "hobbies": "Winner of spelling bee, English spelling competition. My hobby is cheerleading. I play guitar, I like to sing, I have ability to work with people, leadership ability with English computer programs. I am a very helpful person. I love to make people feel comfortable and enjoy the moment they are living. I consider myself a very cheerful and charismatic person. I adapt very easily to any situation that I am presented.",
         "title": "Sister"
     },
     {
-        "name": "Elder Parker Lane Herlehy",
-        "photoName": "HERLEHYPL",
+        "name": "Elder Parker Lane Hershey",
+        "surname": "Hershey",
+        "photoName": "HERSHEYPL",
         "city": "Celina",
         "state": "TX",
         "country": "USA",
@@ -1519,28 +1657,31 @@
     },
     {
         "name": "Elder Jett James Hennings",
+        "surname": "Hennings",
         "photoName": "HENNINGSJJ",
         "city": "San Clemente",
         "state": "CA",
         "country": "USA",
         "startDate": "24 Sep 2024",
         "endDate": "30 Jul 2026",
-        "hobbies": "I\u2019ve traveled to Mexico, El Salvador, and Nicaragua. Also to Fiji, Australia and Hawaii. Surfing has brought me to these wonderful destinations. I have loved the chance to experience new cultures, learn a new language, meet local people, and taste the traditional foods.I love creating art.  I always have a painting that I am working on. I was the recipient of the prestigious \"outstanding achievement award in drawing and painting\" from San Clemente High School out of 3000 students.  I enjoy creating and designing logos for t-shirts and concert posters.  I've had the opportunity to play rhythm and lead guitar in three different bands with my friends.  Playing guitar is a way I express myself and feel the spirit. Music influences the art I create  and my overall moods. Music has shaped my personality and made me aspire to be a better person. It connects experiences in my mind because of the context of where I first listened to a song. It\u2019s left a timestamp in my memory of moments I never want to forget.I also love to teach and help others and work with children.",
+        "hobbies": "I’ve traveled to Mexico, El Salvador, and Nicaragua. Also to Fiji, Australia and Hawaii. Surfing has brought me to these wonderful destinations. I have loved the chance to experience new cultures, learn a new language, meet local people, and taste the traditional foods.I love creating art.  I always have a painting that I am working on. I was the recipient of the prestigious outstanding achievement award in drawing and painting from San Clemente High School out of 3000 students.  I enjoy creating and designing logos for t-shirts and concert posters.  I've had the opportunity to play rhythm and lead guitar in three different bands with my friends.  Playing guitar is a way I express myself and feel the spirit. Music influences the art I create  and my overall moods. Music has shaped my personality and made me aspire to be a better person. It connects experiences in my mind because of the context of where I first listened to a song. It’s left a timestamp in my memory of moments I never want to forget.I also love to teach and help others and work with children.",
         "title": "Elder"
     },
     {
-        "name": "Elder Oliver Lee Scoubes",
+        "name": "Elder Oliver Lee Scubas",
+        "surname": "Scoubes",
         "photoName": "SCOUBESOL",
         "city": "Orem",
         "state": "UT",
         "country": "USA",
         "startDate": "6 Nov 2024",
         "endDate": "9 Sep 2026",
-        "hobbies": "I\u2019ve played Soccer for 13 years. I love outdoors. I have been in many leadership positions in the church and in school and work and I am ready to show Christs love to everyone. 3.7 GPA",
+        "hobbies": "I’ve played Soccer for 13 years. I love outdoors. I have been in many leadership positions in the church and in school and work and I am ready to show Christs love to everyone. 3.7 GPA",
         "title": "Elder"
     },
     {
         "name": "Elder Noah Frederick Davenport",
+        "surname": "Davenport",
         "photoName": "DAVENPORTNF",
         "city": "Orem",
         "state": "UT",
@@ -1552,8 +1693,9 @@
     },
     {
         "name": "Elder Diego Sanches",
+        "surname": "Sanches",
         "photoName": "SANCHESDS",
-        "city": "Ponta Por\u00e3",
+        "city": "Ponta Porã",
         "state": "Mato Grosso do Sul",
         "country": "Brazil",
         "startDate": "25 Sep 2024",
@@ -1563,6 +1705,7 @@
     },
     {
         "name": "Elder Noah Spencer Kirk",
+        "surname": "Kirk",
         "photoName": "KIRKNS",
         "city": "Mesa",
         "state": "AZ",
@@ -1574,6 +1717,7 @@
     },
     {
         "name": "Elder Caleb Webster Maxey",
+        "surname": "Maxey",
         "photoName": "MAXEYCW",
         "city": "Calumet City",
         "state": "IL",
@@ -1585,8 +1729,9 @@
     },
     {
         "name": "Elder Hyrum Longstroth Bird",
+        "surname": "Bird",
         "photoName": "BIRDHL",
-        "city": "South Jordan",
+        "city": "South Jorday",
         "state": "UT",
         "country": "USA",
         "startDate": "6 Nov 2024",
@@ -1596,6 +1741,7 @@
     },
     {
         "name": "Sister Maria Eugenia Sosa",
+        "surname": "Sosa",
         "photoName": "SOSAME",
         "city": "Salto",
         "state": "Salto",
@@ -1607,6 +1753,7 @@
     },
     {
         "name": "Sister Monica Marinho Nogueira",
+        "surname": "Nogueira",
         "photoName": "NOGUEIRAMM",
         "city": "Tefe",
         "state": "Amazonas",
@@ -1618,6 +1765,7 @@
     },
     {
         "name": "Sister Kendall Grace Lindsey",
+        "surname": "Lindsey",
         "photoName": "LINDSEYKG",
         "city": "Centerton",
         "state": "AR",
@@ -1629,6 +1777,7 @@
     },
     {
         "name": "Sister Mailen Cayuqueo",
+        "surname": "Cayuqueo",
         "photoName": "CAYUQUEOMC",
         "city": "Puerto Madryn",
         "state": "Chubut",
@@ -1640,6 +1789,7 @@
     },
     {
         "name": "Elder Isaiah Cazares",
+        "surname": "Cazares",
         "photoName": "CAZARESIC",
         "city": "Highland",
         "state": "CA",
@@ -1651,6 +1801,7 @@
     },
     {
         "name": "Elder Hector Fabian de Jesus Garcia Medina",
+        "surname": "Garcia",
         "photoName": "MEDINAHF",
         "city": "Leon de los Aldama",
         "state": "Guanajuato",
@@ -1661,7 +1812,8 @@
         "title": "Elder"
     },
     {
-        "name": "Elder Nestor Casta\u00f1eda Franco",
+        "name": "Elder Nestor Castañeda Franco",
+        "surname": "Castañeda",
         "photoName": "FRANCONC",
         "city": "Chihuahua",
         "state": "Chihuahua",
@@ -1673,20 +1825,22 @@
     },
     {
         "name": "Elder Erick Eliud Ponce Lopez",
+        "surname": "Ponce",
         "photoName": "LOPEZEE",
         "city": "Madero",
         "state": "Tamaulipas",
         "country": "Mexico",
         "startDate": "6 Nov 2024",
-        "endDate": "21 Oct 2026",
+        "endDate": "21 Oct 26",
         "hobbies": "Volleyball (4 years), Driving (2 years), Microsoft Word Higher Level Certification",
         "title": "Elder"
     },
     {
         "name": "Elder Axel Isaac Villarreal Martinez",
+        "surname": "Villarreal",
         "photoName": "MARTINEZAI",
         "city": "Monterrey",
-        "state": "Nuevo Le\u00f3n",
+        "state": "Nuevo León",
         "country": "Mexico",
         "startDate": "6 Nov 2024",
         "endDate": "21 Oct 2026",
@@ -1695,17 +1849,19 @@
     },
     {
         "name": "Elder Walker Romney Thompson",
+        "surname": "Thompson",
         "photoName": "THOMPSONWR",
         "city": "Topeka",
         "state": "KS",
         "country": "USA",
         "startDate": "27 Jan 2025",
         "endDate": "17 Nov 2026",
-        "hobbies": "I have participated in multiple sports throughout high school such as Football, bowling, and Track & Field. I assisted with various programs for special needs students such as the Special Olympics and Circle of Friends. Apart from athletics, I volunteered as a student mentor for elementary school students and was a member of multiple academic honors societies such as NHS and NTHS. Growing up I took piano and trombone lessons for several years. Hobbies I participate in are dancing and \"do it yourself\" projects.",
+        "hobbies": "I have participated in multiple sports throughout high school such as Football, bowling, and Track & Field. I assisted with various programs for special needs students such as the Special Olympics and Circle of Friends. Apart from athletics, I volunteered as a student mentor for elementary school students and was a member of multiple academic honors societies such as NHS and NTHS. Growing up I took piano and trombone lessons for several years. Hobbies I participate in are dancing and do it yourself projects.",
         "title": "Elder"
     },
     {
         "name": "Elder Michael Todd Eddington",
+        "surname": "Eddington",
         "photoName": "EDDINGTONMT",
         "city": "Wichita",
         "state": "KS",
@@ -1717,6 +1873,7 @@
     },
     {
         "name": "Elder Jake Ryne Weiss",
+        "surname": "Weiss",
         "photoName": "WEISSJR",
         "city": "Lehi",
         "state": "UT",
@@ -1728,6 +1885,7 @@
     },
     {
         "name": "Elder Matthew Graham Harber",
+        "surname": "Harber",
         "photoName": "HARBERMG",
         "city": "Pinedale",
         "state": "WY",
@@ -1739,17 +1897,19 @@
     },
     {
         "name": "Elder Heber Omar Hernandez Ledezma",
+        "surname": "Hernandez",
         "photoName": "LEDEZMAHO",
         "city": "Saltillo",
         "state": "Coahuila",
         "country": "Mexico",
         "startDate": "11 Dec 2024",
         "endDate": "2 Dec 2026",
-        "hobbies": "Me gusta estudiar y apender idiomas. Me gusta relacionarme y conocer a otras personas. Me gusta la astronom\u00eda y el piano.   //   I like studying and learning languages. I like socializing and meeting other people. I like astronomy and the piano.",
+        "hobbies": "Me gusta estudiar y apender idiomas. Me gusta relacionarme y conocer a otras personas. Me gusta la astronomía y el piano.   //   I like studying and learning languages. I like socializing and meeting other people. I like astronomy and the piano.",
         "title": "Elder"
     },
     {
         "name": "Sister Josefa Emilia Riquelme",
+        "surname": "Riquelme",
         "photoName": "RIQUELMEJE",
         "city": "Region metropolita",
         "state": "Santiago",
@@ -1760,8 +1920,9 @@
         "title": "Sister"
     },
     {
-        "name": "Sister Priscila Nu\u00f1ez",
-        "photoName": "NU\u00d1EZPN",
+        "name": "Sister Priscila Nuñez",
+        "surname": "Nuñez",
+        "photoName": "NUÑEZPN",
         "city": "Rafael Calzada",
         "state": "Buenos Aires",
         "country": "Argentina",
@@ -1772,6 +1933,7 @@
     },
     {
         "name": "Elder Hector Gustavo Sanchez Luis",
+        "surname": "Sanchez",
         "photoName": "LUISHG",
         "city": "La Cruz Elota",
         "state": "Sinaloa",
@@ -1783,6 +1945,7 @@
     },
     {
         "name": "Elder Jimmy Didier Nicolas Casabal",
+        "surname": "Nicolas",
         "photoName": "CASABALJD",
         "city": "Puebla",
         "state": "Puebla",
@@ -1794,6 +1957,7 @@
     },
     {
         "name": "Elder Christopher Parker Bryant",
+        "surname": "Bryant",
         "photoName": "BRYANTCP",
         "city": "Mims",
         "state": "FL",
@@ -1805,8 +1969,9 @@
     },
     {
         "name": "Elder Maximo Joaquin Sales",
+        "surname": "Sales",
         "photoName": "SALESMJ",
-        "city": "Paran\u00e1",
+        "city": "Paraná",
         "state": "Entre Rios",
         "country": "Argentina",
         "startDate": "12 Mar 2025",
@@ -1816,6 +1981,7 @@
     },
     {
         "name": "Elder Oscar Ivan Pinto Machado",
+        "surname": "Pinto",
         "photoName": "MACHADOOI",
         "city": "Zapopan",
         "state": "Jalisco",
@@ -1827,6 +1993,7 @@
     },
     {
         "name": "Elder Devin Reed Richardson",
+        "surname": "Richardson",
         "photoName": "RICHARDSONDR",
         "city": "Taylor",
         "state": "AZ",
@@ -1838,6 +2005,7 @@
     },
     {
         "name": "Elder Nazareno Agustin Suazo",
+        "surname": "Agustin",
         "photoName": "SUAZONA",
         "city": "Ituzaingo",
         "state": "Buenos Aires",
@@ -1849,9 +2017,10 @@
     },
     {
         "name": "Elder Leonel Isa",
+        "surname": "Isa",
         "photoName": "ISALI",
-        "city": "C\u00f3rdoba",
-        "state": "C\u00f3rdoba",
+        "city": "Córdoba",
+        "state": "Córdoba",
         "country": "Argentina",
         "startDate": "23 Apr 2025",
         "endDate": "7 Apr 2027",
@@ -1860,6 +2029,7 @@
     },
     {
         "name": "Elder Daniel David Casseres Rodriguez",
+        "surname": "Casseres",
         "photoName": "RODRIGUEZDD",
         "city": "Cartagena",
         "state": "Bolivia",
