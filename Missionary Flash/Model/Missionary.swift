@@ -78,7 +78,17 @@ class Missionary: Identifiable, Codable {
           return "\(genderPrefix) \(surname)"
       }
   }
+  var startDateAsDate: Date? {
+          let dateFormatter = DateFormatter()
+          dateFormatter.dateFormat = "dd-MMM-yyyy"
+          return dateFormatter.date(from: startDate)
+      }
 
+      var endDateAsDate: Date? {
+          let dateFormatter = DateFormatter()
+          dateFormatter.dateFormat = "dd-MMM-yyyy"
+          return dateFormatter.date(from: endDate)
+      }
   
   init(id:UUID, name: String, surname: String, photoName: String, city: String, state: String, country: String, startDate: String, endDate: String, hobbies: String, title: String) {
     self.name = name
