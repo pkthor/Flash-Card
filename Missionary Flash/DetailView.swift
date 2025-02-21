@@ -69,7 +69,7 @@ struct DetailView: View {
                       }
                   
                   if showName {
-                      Text(missionary.fnamelname)
+                      Text(missionary.fnamesurname)
                           .font(.headline)
                           .foregroundColor(.white)
                           .padding(8)
@@ -163,7 +163,7 @@ struct DetailView: View {
     if searchText.isEmpty {
       filteredMissionaries = missionaries
     } else {
-      filteredMissionaries = missionaries.filter { $0.lname.localizedCaseInsensitiveContains(searchText) }
+      filteredMissionaries = missionaries.filter { $0.surname.localizedCaseInsensitiveContains(searchText) }
     }
     currentIndex = 0
     loadMissionary(at: currentIndex)

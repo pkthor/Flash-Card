@@ -25,7 +25,7 @@ struct MissionaryDetailView: View {
           dismiss()
         }
       
-      Text(missionary.name)
+      Text(missionary.fnamesurname)
         .font(.largeTitle)
         .foregroundColor(.primary)
       

@@ -11,6 +11,7 @@ import SwiftData
 @Model
 class Missionary: Identifiable, Codable {
   @Attribute(.unique) var name: String // Unique attribute to avoid duplicates
+  var surname: String
   var photoName: String
   var city: String
   var state: String
@@ -31,7 +32,16 @@ class Missionary: Identifiable, Codable {
     }
     return "\(first) \(last)"
   }
-  
+  var fnamesurname: String {
+    let nameComponents = name.split(separator: " ")
+    guard var first = nameComponents.first else {
+      return name 
+    }
+    if first == "Sister" {
+      first = "Hermana"
+    }
+    return "\(first) \(surname)"
+  }
   // Computed property for last name only
   var lname: String {
     let nameComponents = name.split(separator: " ")
@@ -48,10 +58,10 @@ class Missionary: Identifiable, Codable {
       switch title {
       case "Sister":
           genderPrefix = "Hermana"
-          return "\(genderPrefix) \(lname)"
+          return "\(genderPrefix) \(surname)"
       case "Elder":
           genderPrefix = "Elder"
-          return "\(genderPrefix) \(lname)"
+          return "\(genderPrefix) \(surname)"
       case "Senior":
           let nameComponents = name.split(separator: " ")
           guard let first = nameComponents.first else {
@@ -62,16 +72,17 @@ class Missionary: Identifiable, Codable {
           } else if first == "Elder" {
               genderPrefix = "Elder"
           }
-          return "\(genderPrefix) \(lname)"
+          return "\(genderPrefix) \(surname)"
       default:
           genderPrefix = "Elder"
-          return "\(genderPrefix) \(lname)"
+          return "\(genderPrefix) \(surname)"
       }
   }
 
   
-  init(id:UUID, name: String, photoName: String, city: String, state: String, country: String, startDate: String, endDate: String, hobbies: String, title: String) {
+  init(id:UUID, name: String, surname: String, photoName: String, city: String, state: String, country: String, startDate: String, endDate: String, hobbies: String, title: String) {
     self.name = name
+    self.surname = surname
     self.photoName = photoName
     self.city = city
     self.state = state
@@ -85,12 +96,13 @@ class Missionary: Identifiable, Codable {
   // MARK: - Codable Conformance
   
   enum CodingKeys: String, CodingKey {
-    case name, photoName, city, state, country, startDate, endDate, hobbies, title
+    case name, surname, photoName, city, state, country, startDate, endDate, hobbies, title
   }
   
   required init(from decoder: Decoder) throws {
     let container = try decoder.container(keyedBy: CodingKeys.self)
     self.name = try container.decode(String.self, forKey: .name)
+    self.surname = try container.decode(String.self, forKey: .surname)
     self.photoName = try container.decode(String.self, forKey: .photoName)
     self.city = try container.decode(String.self, forKey: .city)
     self.state = try container.decode(String.self, forKey: .state)
@@ -104,6 +116,7 @@ class Missionary: Identifiable, Codable {
   func encode(to encoder: Encoder) throws {
     var container = encoder.container(keyedBy: CodingKeys.self)
     try container.encode(name, forKey: .name)
+    try container.encode(surname, forKey: .surname)
     try container.encode(photoName, forKey: .photoName)
     try container.encode(city, forKey: .city)
     try container.encode(state, forKey: .state)

@@ -26,7 +26,7 @@ struct FlashCardView: View {
       if isTapped {
         VStack {
           Spacer()
-          Text(missionary.fnamelname)
+          Text(missionary.fnamesurname)
             .font(.headline)
             .foregroundColor(.white)
             .padding(8)

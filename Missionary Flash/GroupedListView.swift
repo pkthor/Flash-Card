@@ -32,7 +32,7 @@ struct GroupedListView: View {
         }
         .map { key, value in
             // Sort each group alphabetically by missionary's full name
-            (key, value.sorted { $0.fnamelname < $1.fnamelname })
+            (key, value.sorted { $0.fnamesurname < $1.fnamesurname })
         }
         .sorted { lhs, rhs in
             // Sort groups by date
@@ -68,7 +68,7 @@ struct GroupedListView: View {
                                         .clipShape(Circle())
                                         .padding(.bottom, 4)
 
-                                    Text(missionary.fnamelname)
+                                    Text(missionary.fnamesurname)
                                         .font(.headline)
                                         .multilineTextAlignment(.center)
                                 }
