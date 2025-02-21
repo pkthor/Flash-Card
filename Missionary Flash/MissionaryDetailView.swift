@@ -25,9 +25,9 @@ struct MissionaryDetailView: View {
           dismiss()
         }
       
-      Text(missionary.fnamesurname)
-        .font(.largeTitle)
-        .foregroundColor(.primary)
+      Text(missionary.name)
+        .font(.title)
+        .foregroundColor(.yellow)
       
       VStack(alignment: .leading, spacing: 10) {
         Text("Hobbies:")
