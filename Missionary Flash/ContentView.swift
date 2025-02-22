@@ -21,7 +21,7 @@ struct ContentView: View {
     enum ViewType: String, CaseIterable, Identifiable {
         case detail = "Card"
         case grid = "Grid"
-        case groupedList = "Group"
+        case groupedList = "Dates"
         case alphabetical = "Alpha"
         case matchingGrid = "Match"
         
