@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct InfoView: View {
-  let dateofTransfer: String = "20 Feb 25"
+  let dateofTransfer: String = "23 Feb 2025"
   var body: some View {
-    Text("For transfer date: ")
+    Text("Updated: ")
     Text(dateofTransfer)
       .foregroundColor(.yellow)
   }
