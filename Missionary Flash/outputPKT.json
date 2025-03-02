@@ -1968,9 +1968,9 @@
         "title": "Elder"
     },
     {
-        "name": "Elder Maximo Joaquin Sales",
-        "surname": "Sales",
-        "photoName": "SALESMJ",
+        "name": "Elder Maximo Joaquin Sayes",
+        "surname": "Sayes",
+        "photoName": "SAYESMJ",
         "city": "Paraná",
         "state": "Entre Rios",
         "country": "Argentina",
@@ -2205,6 +2205,66 @@
         "startDate": "16 Jul 2025",
         "endDate": "19 May 2027",
         "hobbies": "Music-I have played the viola for 10 years and am in the Philharmonic orchestra at BYU. I made All-State in High School Volleyball-played for 4 years. Orchestra club, Leadership Club, Tri-Music Honors Society, Ballroom Dance Club. I enjoy running and being active.",
+        "title": "Elder"
+    },
+    {
+        "name": "Sister Caitlin Marie Dalton",
+        "surname": "Dalton",
+        "photoName": "DALTONCM",
+        "city": "Rupert",
+        "state": "ID",
+        "country": "USA",
+        "startDate": "16 Jul 2025",
+        "endDate": "2 Dec 2026",
+        "hobbies": "Certified Nursing Assistant; CPR certified; I can play the piano; dance",
+        "title": "Sister"
+    },
+    {
+        "name": "Sister Madison Lee Shakespear",
+        "surname": "Shakespear",
+        "photoName": "SHAKESPEARML",
+        "city": "McKinney",
+        "state": "TX",
+        "country": "USA",
+        "startDate": "16 Jul 2025",
+        "endDate": "2 Dec 2026",
+        "hobbies": "I am currently a freshman at BYU, Provo, and have enjoyed learning new hobbies while living here, including hiking, boating, country dancing, road trips, and skiing! One of my favorite accomplishments I have been gifted with was my experience on my HXP trip in Recife, Brazil. I spent two and a half weeks building a school for the community of Recife, and loved every minute of it. It was there that I decided I have a desire to serve a mission. I loved learning Portuguese and being immersed in their culture. I am originally from Texas and I spent a lot of time in high school being very involved in my community. I participated in a program called PALS, standing for Peer Assistant Leadership program, during my junior and senior years. This program allowed me to visit pre-school and elementary schools in my area and connect with students who had various struggles. I loved being involved in the PALS program because it gave me an outlet where I could make a difference I was also involved in the cheerleading program in both my middle school and high school, cheering for a total of six years.I was a member of National Honor Society, always aiming to keep my grade point average high. A few accomplishments I have been honored with include the Citizenship Award and the Lion Pride award, both given to me from my high school staff. I was named Cheerleader of the Year my senior year, along with other awards. These awards meant so much to me because they were all given to me from my peers, who I grew up with and it is my hope that I left an impact and shared the light of Christ with them.",
+        "title": "Sister"
+    },
+    {
+        "name": "Sister Claire Helen Larkin",
+        "surname": "Larkin",
+        "photoName": "LARKINCH",
+        "city": "Draper",
+        "state": "UT",
+        "country": "USA",
+        "startDate": "16 Jul 2025",
+        "endDate": "2 Dec 2026",
+        "hobbies": "Piano playing, skiing, rock climbing, mountain biking, boating, reading, CPR certified",
+        "title": "Sister"
+    },
+    {
+        "name": "Elder Damien Jay Burgess",
+        "surname": "Burgess",
+        "photoName": "BURGESSDJ",
+        "city": "Afton",
+        "state": "WY",
+        "country": "USA",
+        "startDate": "27 Aug 2025",
+        "endDate": "30 Jun 2027",
+        "hobbies": "Football, wrestling, marching band, concert band, CrossFit, ballroom dancing, National Honors Society. Golf, backpacking, hiking, exercising. All-State football offensive lineman. Honor band. Football team captain. NHS officer",
+        "title": "Elder"
+    },
+    {
+        "name": "Elder Victor Alberto Puc Aké",
+        "surname": "Puc",
+        "photoName": "PUCVA",
+        "city": "Calkini",
+        "state": "Campeche",
+        "country": "MX",
+        "startDate": "14 Apr 2025",
+        "endDate": "14 Apr 2027",
+        "hobbies": "As a hobby I play basketball, read all kinds of books or articles and listen to music.",
         "title": "Elder"
     }
 ]

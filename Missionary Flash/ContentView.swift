@@ -53,7 +53,7 @@ struct ContentView: View {
              dismiss()
            }
          }
-         .padding(.bottom, 20)
+         .padding(.bottom, 8)
          Spacer()
          Picker("View Type", selection: $selectedViewType) {
            ForEach(UIDevice.current.userInterfaceIdiom == .pad ? ViewType.allCases : [.detail, .groupedList, .alphabetical]) { viewType in
@@ -63,7 +63,7 @@ struct ContentView: View {
            }
          }
          .pickerStyle(SegmentedPickerStyle())
-         .padding(.bottom, 60)
+         .padding(.bottom, 10)
          .frame(height: 60)
          // Category List
          List(categories, id: \.self, selection: $selectedCategory) { category in
@@ -94,7 +94,7 @@ struct ContentView: View {
              .clipShape(Circle())
            Spacer()
          }
-         .padding(.vertical, 100)
+         .padding(.top, 40)
          Spacer()
        }
      } detail: {
