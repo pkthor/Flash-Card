@@ -2266,5 +2266,77 @@
         "endDate": "14 Apr 2027",
         "hobbies": "As a hobby I play basketball, read all kinds of books or articles and listen to music.",
         "title": "Elder"
+    },
+    {
+        "name": "Elder Corbin Jake Ray",
+        "surname": "Ray",
+        "photoName": "RAYCJ",
+        "city": "Alpine",
+        "state": "UT",
+        "country": "USA",
+        "startDate": "8 Oct 2025",
+        "endDate": "11 Aug 2027",
+        "hobbies": "I am a 3 year member of the Polynesian club at my school. I know multiple cultural dances and perform them. I am a 4 year varsity lacrosse player and captain. I am a self taught guitar player and can play piano as well",
+        "title": "Elder"
+    },
+    {
+        "name": "Sister Molly Lyn Bigler",
+        "surname": "Bigler",
+        "photoName": "BIGLERML",
+        "city": "Thatcher",
+        "state": "AZ",
+        "country": "USA",
+        "startDate": "27 Aug 2025",
+        "endDate": "13 Jan 2027",
+        "hobbies": "Piano, guitar, singing, baking, photography soccer, running going to the gym/working out, Lego making",
+        "title": "Sister"
+    },
+    {
+        "name": "Elder Nathanial Michael Rognon",
+        "surname": "Rognon",
+        "photoName": "ROGNONNM",
+        "city": "Saratoga Springs",
+        "state": "UT",
+        "country": "USA",
+        "startDate": "27 Aug 2025",
+        "endDate": "30 Jun 27",
+        "hobbies": "Misc",
+        "title": "Elder"
+    },
+    {
+        "name": "Elder Griffin Creed Gardner",
+        "surname": "Gardner",
+        "photoName": "GARDNERGC",
+        "city": "Kaysville",
+        "state": "UT",
+        "country": "USA",
+        "startDate": "27 Aug 2025",
+        "endDate": "30 Jun 2027",
+        "hobbies": "Mountain Biking, Basketball, Fluent in French",
+        "title": "Elder"
+    },
+    {
+        "name": "Sister Erica Crista Harvey",
+        "surname": "Harvey",
+        "photoName": "HARVEYEC",
+        "city": "Morrison",
+        "state": "CO",
+        "country": "USA",
+        "startDate": "27 Aug 2025",
+        "endDate": "13 Jan 2027",
+        "hobbies": "I have played the piano for 14 years. I have experience in both performing and teaching piano. I also love to sing. I have taken private voice lessons and been in many choirs",
+        "title": "Sister"
+    },
+    {
+        "name": "Elder Jordan Lee Jensen",
+        "surname": "Jensen",
+        "photoName": "JENSENJL",
+        "city": "Layton",
+        "state": "UT",
+        "country": "USA",
+        "startDate": "27 Aug 2025",
+        "endDate": "30 Jun 2027",
+        "hobbies": "I ran Cross Country, Track and played volleyball. I have 5 varsity letters across these sports. I like to live an active lifestyle by going to the gym and going on hikes. I like playing pickleball",
+        "title": "Elder"
     }
 ]
