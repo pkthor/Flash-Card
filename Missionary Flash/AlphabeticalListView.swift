@@ -15,8 +15,8 @@ struct AlphabeticalListView: View {
     private let columns = [GridItem(.adaptive(minimum: 150), spacing: 20)] // Responsive grid layout
 
     private var groupedMissionaries: [(key: String, value: [Missionary])] {
-      Dictionary(grouping: missionaries.sorted { $0.surname < $1.surname }) {
-            String($0.surname.prefix(1))
+      Dictionary(grouping: missionaries.sorted { $0.photoName < $1.photoName }) {
+            String($0.photoName.prefix(1))
         }
         .sorted { $0.key < $1.key }
     }

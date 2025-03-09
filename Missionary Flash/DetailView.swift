@@ -131,7 +131,7 @@ struct DetailView: View {
         if searchText.isEmpty {
             filteredMissionaries = missionaries
         } else {
-            filteredMissionaries = missionaries.filter { $0.surname.localizedCaseInsensitiveContains(searchText) }
+            filteredMissionaries = missionaries.filter { $0.photoName.localizedCaseInsensitiveContains(searchText) }
         }
         currentIndex = 0
         loadMissionary(at: currentIndex)
