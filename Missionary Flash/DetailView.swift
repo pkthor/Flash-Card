@@ -104,22 +104,25 @@ struct DetailView: View {
                 Text("No missionary selected")
             }
         }
-//        .sheet(isPresented: $showDetailView) {
-//            if let missionary = selectedMissionary {
-//                MissionaryDetailView(missionary: missionary)
-//            }
-//        }
     }
 
     private func loadMissionary(at index: Int) {
         guard !filteredMissionaries.isEmpty else { return }
         currentMissionary = filteredMissionaries[index]
     }
-  private func goToNextMissionary() {
-    guard !filteredMissionaries.isEmpty else { return }
-    currentIndex = (currentIndex + 1) % filteredMissionaries.count
-  }
-  
+
+    private func goToNextMissionary() {
+        guard !filteredMissionaries.isEmpty else { return }
+        
+        if currentIndex == filteredMissionaries.count - 1 {
+            // If at the last missionary, reshuffle the list
+            filteredMissionaries.shuffle()
+            currentIndex = 0
+        } else {
+            currentIndex += 1
+        }
+    }
+
   private func goToPreviousMissionary() {
     guard !filteredMissionaries.isEmpty else { return }
     currentIndex = (currentIndex - 1 + filteredMissionaries.count) % filteredMissionaries.count
