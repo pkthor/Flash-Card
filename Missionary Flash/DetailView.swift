@@ -50,7 +50,7 @@ struct DetailView: View {
                                 }
 
                             if showName {
-                                Text(missionary.fnamesurname)
+                                Text(missionary.shortname)
                                     .font(.headline)
                                     .foregroundColor(.white)
                                     .padding(8)

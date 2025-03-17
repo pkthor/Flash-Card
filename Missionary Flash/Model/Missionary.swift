@@ -21,74 +21,53 @@ class Missionary: Identifiable, Codable {
   var hobbies: String
   var title: String
   
-  // Computed property for first and last name only
   var fnamelname: String {
-    let nameComponents = name.split(separator: " ")
-    guard var first = nameComponents.first, let last = nameComponents.last else {
-      return name // Fallback to full name if splitting fails
-    }
-    if first == "Sister" {
-      first = "Hermana"
-    }
-    return "\(first) \(last)"
+    let parts = name.split(separator: ",")
+    guard parts.count == 2 else { return name }
+    let firstNames = parts[1].trimmingCharacters(in: .whitespaces)
+    let lastName = parts[0].split(separator: " ").first ?? ""
+    return "\(firstNames) \(lastName)"
   }
+  
   var fnamesurname: String {
-    let nameComponents = name.split(separator: " ")
-    guard var first = nameComponents.first else {
-      return name 
-    }
-    if first == "Sister" {
-      first = "Hermana"
-    }
-    return "\(first) \(surname)"
+    let parts = name.split(separator: ",")
+    guard parts.count == 2 else { return name }
+    let firstNames = parts[1].trimmingCharacters(in: .whitespaces)
+    return "\(firstNames) \(surname)"
   }
+  
   // Computed property for last name only
   var lname: String {
-    let nameComponents = name.split(separator: " ")
-    guard let last = nameComponents.last else {
-      return name
-    }
-    return "\(last)"
+    return name.split(separator: ",").first?.split(separator: " ").first.map(String.init) ?? name
   }
   
   // Computed property to determine the short name
   var shortname: String {
-      var genderPrefix = "Elder" // Default value
-      
-      switch title {
-      case "Sister":
-          genderPrefix = "Hermana"
-          return "\(genderPrefix) \(surname)"
-      case "Elder":
-          genderPrefix = "Elder"
-          return "\(genderPrefix) \(surname)"
-      case "Senior":
-          let nameComponents = name.split(separator: " ")
-          guard let first = nameComponents.first else {
-              return name // Fallback to full name if splitting fails
-          }
-          if first == "Sister" {
-              genderPrefix = "Hermana"
-          } else if first == "Elder" {
-              genderPrefix = "Elder"
-          }
-          return "\(genderPrefix) \(surname)"
-      default:
-          genderPrefix = "Elder"
-          return "\(genderPrefix) \(surname)"
-      }
+    let genderPrefix = title == "Sister" ? "Hermana" : "Elder"
+    return "\(genderPrefix) \(surname)"
   }
+  
+  
+  // Computed property for full name in correct order
+  var fullOrderedName: String {
+    let parts = name.split(separator: ",")
+    guard parts.count == 2 else { return name }
+    let firstNames = parts[1].trimmingCharacters(in: .whitespaces)
+    let lastNames = parts[0].trimmingCharacters(in: .whitespaces)
+    return "\(firstNames) \(lastNames)"
+  }
+  
   var startDateAsDate: Date? {
-          let dateFormatter = DateFormatter()
-          dateFormatter.dateFormat = "dd-MMM-yyyy"
-          return dateFormatter.date(from: startDate)
-      }
-
-      var endDateAsDate: Date? {
-          let dateFormatter = DateFormatter()
-          dateFormatter.dateFormat = "dd-MMM-yyyy"
-          return dateFormatter.date(from: endDate)
-      }
+    let dateFormatter = DateFormatter()
+    dateFormatter.dateFormat = "dd-MMM-yyyy"
+    return dateFormatter.date(from: startDate)
+  }
+  
+  var endDateAsDate: Date? {
+    let dateFormatter = DateFormatter()
+    dateFormatter.dateFormat = "dd-MMM-yyyy"
+    return dateFormatter.date(from: endDate)
+  }
   
   init(id:UUID, name: String, surname: String, photoName: String, city: String, state: String, country: String, startDate: String, endDate: String, hobbies: String, title: String) {
     self.name = name

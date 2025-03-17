@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct InfoView: View {
-  let dateofTransfer: String = "8 Mar 2025"
+  let dateofTransfer: String = "16 Mar 2025"
   var body: some View {
     Text("Updated: ")
     Text(dateofTransfer)

@@ -15,6 +15,10 @@ struct MissionaryDetailView: View {
   
   var body: some View {
     VStack(spacing: 20) {
+      Spacer()
+      Text(missionary.shortname)
+        .font(.title2)
+        .foregroundColor(.primary)
       Image(missionary.photoName)
         .resizable()
         .scaledToFit()
@@ -25,7 +29,7 @@ struct MissionaryDetailView: View {
           dismiss()
         }
       
-      Text(missionary.name)
+      Text(missionary.fullOrderedName)
         .font(.title)
         .foregroundColor(.yellow)
       
